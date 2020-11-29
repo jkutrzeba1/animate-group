@@ -1,0 +1,15 @@
+{
+  "name": "animate-group",
+  "version": "1.0.0",
+  "description": "List transitions with animate.css and vue",
+  "main": "AnimateGroup.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jkutrzeba1@gmail.com",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^2.0.0",
+    "animate.css": "^4.1.1"
+  }
+}
