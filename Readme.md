@@ -8,6 +8,7 @@
 | smoothMove        | Boolean | Specifies whether surrounding elements will occupy placement of inserted/removed element in smoothly way                                                                                                                             |          | true                |
 | instantMove       | Boolean | Instant move of surrounding elements on leave transition - removed element will be detached from normal document flow.  Surrounding elements will be moved immediately - rather when animation ends. Applied only for out transition |          | true                |
 
+
 ### Slots
 
 
