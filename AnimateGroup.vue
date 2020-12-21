@@ -1,11 +1,11 @@
 <template>
-  <transition-group :move-class="smoothMove ? 'move' : ''" @enter="animateCSS($event, 'in')" @leave="animateCSS($event, 'out')">
+  <transition-group :move-class="smoothMove ? 'animate__move' : ''" @enter="animateCSS($event, 'in')" @leave="animateCSS($event, 'out')">
     <slot></slot>
   </transition-group>
 </template>
 
 <script>
-  export default {
+  module.exports = {
     props: {
       animationIn: {
         type: String,
@@ -87,8 +87,8 @@
 </script>
 
 <style src="animate.css"></style>
-<style scoped>
-.move {
-  transition: transform 0.8s ease;
+<style>
+.animate__move {
+  transition: transform 1.2s ease;
 }
 </style>
