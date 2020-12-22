@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  export default {
+  module.exports = {
     props: {
       animationIn: {
         type: String,
@@ -85,7 +85,6 @@
     }
   }
 </script>
-
 <style src="animate.css"></style>
 <style>
 .animate__move {
