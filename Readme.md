@@ -1,3 +1,29 @@
+## animate-group
+
+Use [animate.css](https://animate.style/) transitions to animate  *entry* and *leave* on list of items based on an array with smooth move of surrounding elements.
+
+## Install
+```bash
+npm install animate-group --save
+```
+#### Import
+```js
+const AnimateGroup = require('animate-group').default;
+```
+
+#### Local registration
+```js
+  module.exports = {
+    components: {
+      AnimateGroup
+    } ...
+```
+
+#### Global registration
+```js
+Vue.component('AnimateGroup', AnimateGroup);
+```
+## API
 ### Props
 
 | Prop              | Type    | Description                                                                                                                                                                                                                          | Required | Default             |
