@@ -1,6 +1,6 @@
 {
   "name": "animate-group",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "List transitions with animate.css and vue",
   "main": "AnimateGroup.vue",
   "scripts": {
