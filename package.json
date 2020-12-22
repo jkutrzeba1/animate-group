@@ -1,6 +1,6 @@
 {
   "name": "animate-group",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "List transitions with animate.css and vue",
   "main": "AnimateGroup.vue",
   "scripts": {
@@ -13,5 +13,17 @@
   },
   "peerDependencies": {
     "vue": "^2.0.0"
-  }
+  },
+  "keywords": [
+    "animate",
+    "animate.css",
+    "vue",
+    "vue.js",
+    "transition",
+    "transition-group",
+    "vue-animate",
+    "list-transition",
+    "list-animation",
+    "smooth-move"
+  ]
 }
